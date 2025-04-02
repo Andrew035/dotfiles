@@ -1,0 +1,31 @@
+# ~/.config/ghostty/config
+
+font-size = 13
+font-thicken = true
+font-feature = "zero"
+
+theme = catppuccin-mocha
+
+# background-opacity = 0.8
+background-blur = false
+
+adjust-cell-height = 35%
+
+mouse-hide-while-typing = true
+mouse-scroll-multiplier = 2
+
+window-decoration = client
+window-padding-balance = true
+window-padding-x = 0,0
+window-save-state = always
+window-colorspace = "display-p3"
+
+macos-titlebar-style = hidden
+quit-after-last-window-closed = true
+
+cursor-style = block
+cursor-color = "#cba6f7"
+cursor-text = "#11111b"
+cursor-style-blink = false
+
+shell-integration-features = no-cursor
