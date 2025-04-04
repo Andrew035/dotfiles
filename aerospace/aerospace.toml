@@ -156,6 +156,7 @@ alt-shift-semicolon = 'mode service'
 
 alt-g = 'exec-and-forget open -a /Applications/Ghostty.app'
 alt-c = 'exec-and-forget open -a /Applications/Google\ Chrome.app'
+alt-p = 'exec-and-forget open -a /Applications/kitty.app'
 
 # 'service' binding mode declaration.
 # See: https://nikitabobko.github.io/AeroSpace/guide#binding-modes
