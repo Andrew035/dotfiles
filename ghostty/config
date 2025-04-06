@@ -1,13 +1,17 @@
 # ~/.config/ghostty/config
 
-font-size = 13
+# font-family = Fira Code
+# font-family = SauceCodePro Nerd Font
+font-family = Dank Mono
+
+font-size = 15
 font-thicken = true
-font-feature = "zero"
+# font-feature = "zero"
 
-theme = catppuccin-mocha
+theme = tokyonight
 
-# background-opacity = 0.8
-background-blur = false
+background-opacity = 0.8
+background-blur = true
 
 adjust-cell-height = 35%
 
@@ -24,8 +28,8 @@ macos-titlebar-style = hidden
 quit-after-last-window-closed = true
 
 cursor-style = block
-cursor-color = "#cba6f7"
-cursor-text = "#11111b"
+# cursor-color = "#cba6f7"
+# cursor-text = "#11111b"
 cursor-style-blink = false
 
 shell-integration-features = no-cursor
