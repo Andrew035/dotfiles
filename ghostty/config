@@ -1,8 +1,7 @@
 # ~/.config/ghostty/config
 
-# font-family = Fira Code
+font-family = FiraCode Nerd Font
 # font-family = SauceCodePro Nerd Font
-font-family = Dank Mono
 
 font-size = 15
 font-thicken = true
@@ -13,7 +12,7 @@ theme = tokyonight
 background-opacity = 0.8
 background-blur = true
 
-adjust-cell-height = 35%
+# adjust-cell-height = 35%
 
 mouse-hide-while-typing = true
 mouse-scroll-multiplier = 2
