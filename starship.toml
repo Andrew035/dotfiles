@@ -1,7 +1,7 @@
 add_newline = false
 
 # A minimal left prompt
-format = """$directory$git_branch$git_status$status$character"""
+format = """$directory$git_branch$git_status$character"""
 
 # no right prompt
 right_format = ""
@@ -33,7 +33,7 @@ format = "[( $all_status$ahead_behind )]($style)"
 disabled = true
 
 [status]
-disabled = false
+disabled = true
 pipestatus = true
 format = '[$symbol$int ]($style)'
 symbol = '✘'
