@@ -3,15 +3,16 @@
 # font-family = FiraCode Nerd Font
 # font-family = SauceCodePro Nerd Font
 
-font-size = 14.5
+font-size = 14
 font-thicken = true
 # font-feature = "zero"
 
 # theme = tokyonight
-theme = rose-pine-moon
+# theme = rose-pine-moon
+theme = catppuccin-mocha
 
-background-opacity = 0.8
-background-blur = true
+# background-opacity = 0.8
+# background-blur = true
 
 # adjust-cell-height = 35%
 
@@ -28,10 +29,8 @@ macos-titlebar-style = hidden
 quit-after-last-window-closed = true
 
 cursor-style = block
-# cursor-color = "#cba6f7"
-# cursor-text = "#11111b"
-cursor-color = "#56526e"
-cursor-text = "#e0def4"
+cursor-color = "#a6e3a1"
+cursor-text = "#11111b"
 cursor-style-blink = false
 
 shell-integration-features = no-cursor

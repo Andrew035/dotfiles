@@ -19,7 +19,7 @@ for sid in $(aerospace list-workspaces --all); do
                               background.corner_radius=5 \
                               background.height=20 \
                               background.drawing=off                         \
-                              label.font="Hasklug Nerd Font:Bold:14.0" \
+                              label.font="JetBrainsMono Nerd Font:Bold:14.0" \
                               label.background.height=20                    \
                               label.background.drawing=on                   \
                               label.background.color=0xff494d64             \
@@ -31,7 +31,7 @@ done
 
 sketchybar   --add item       separator left                          \
              --set separator  icon=                                  \
-                              icon.font="Hasklug Nerd Font:Bold:14.0" \
+                              icon.font="JetBrainsMono Nerd Font:Bold:14.0" \
                               background.padding_left=15              \
                               background.padding_right=15             \
                               label.drawing=off                       \
