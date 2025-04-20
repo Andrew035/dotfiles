@@ -10,12 +10,12 @@ right_format = "$git_branch$git_status"
 command_timeout=2000
 
 [character]
-# success_symbol = "[➜](green)"
-# error_symbol = "[➜](red)"
-# vicmd_symbol = "[➜](yellow)"
-success_symbol = "[❱](green)"
-error_symbol = "[❱](red)"
-vicmd_symbol = "[❰](cyan)"
+success_symbol = "[➜](green)"
+error_symbol = "[➜](red)"
+vicmd_symbol = "[➜](yellow)"
+# success_symbol = "[❱](green)"
+# error_symbol = "[❱](red)"
+# vicmd_symbol = "[❰](cyan)"
 
 [directory]
 style = "bold green"
