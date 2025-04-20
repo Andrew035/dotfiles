@@ -9,10 +9,12 @@ font-thicken = true
 
 # theme = tokyonight
 # theme = rose-pine-moon
-theme = catppuccin-mocha
+# theme = catppuccin-mocha
+# theme = onedarkpro-vivid
+theme = lackluster
 
-# background-opacity = 0.8
-# background-blur = true
+background-opacity = 0.75
+background-blur = true
 
 # adjust-cell-height = 35%
 
@@ -21,7 +23,8 @@ mouse-scroll-multiplier = 2
 
 window-decoration = client
 window-padding-balance = true
-window-padding-x = 0,0
+window-padding-x = 10,10
+window-padding-y = 10,10
 window-save-state = always
 window-colorspace = "display-p3"
 
@@ -29,8 +32,8 @@ macos-titlebar-style = hidden
 quit-after-last-window-closed = true
 
 cursor-style = block
-cursor-color = "#a6e3a1"
-cursor-text = "#11111b"
+# cursor-color = "#a6e3a1"
+# cursor-text = "#11111b"
 cursor-style-blink = false
 
 shell-integration-features = no-cursor
