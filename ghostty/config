@@ -1,22 +1,21 @@
 # ~/.config/ghostty/config
 
-# font-family = FiraCode Nerd Font
-# font-family = SauceCodePro Nerd Font
-
 font-size = 14
 font-thicken = true
-# font-feature = "zero"
 
+theme = Catppuccin Mocha
 # theme = tokyonight
-# theme = rose-pine-moon
-# theme = catppuccin-mocha
-# theme = onedarkpro-vivid
-theme = lackluster
+# theme = tokyonight-moon
+# theme = Tokyonight Storm
+# theme = Tokyonight Night
 
-background-opacity = 0.75
-background-blur = true
+# background-opacity = 0.8
+# background-blur-radius = 20
+# background-blur = true
 
 # adjust-cell-height = 35%
+
+custom-shader = "./shaders/cursor_smear.glsl"
 
 mouse-hide-while-typing = true
 mouse-scroll-multiplier = 2
@@ -32,8 +31,7 @@ macos-titlebar-style = hidden
 quit-after-last-window-closed = true
 
 cursor-style = block
-# cursor-color = "#a6e3a1"
-# cursor-text = "#11111b"
 cursor-style-blink = false
 
 shell-integration-features = no-cursor
+
