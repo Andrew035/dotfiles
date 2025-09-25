@@ -1,13 +1,17 @@
 # ~/.config/ghostty/config
 
 font-size = 14
-font-thicken = true
+font-thicken = true 
 
 theme = Catppuccin Mocha
+# theme = duskfox
+# theme = carbonfox
 # theme = tokyonight
 # theme = tokyonight-moon
 # theme = Tokyonight Storm
 # theme = Tokyonight Night
+# theme = lackluster
+# theme = Gruvbox Dark
 
 # background-opacity = 0.8
 # background-blur-radius = 20
@@ -31,7 +35,7 @@ macos-titlebar-style = hidden
 quit-after-last-window-closed = true
 
 cursor-style = block
-cursor-style-blink = false
+cursor-style-blink = false 
 
 shell-integration-features = no-cursor
 
