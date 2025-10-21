@@ -1,11 +1,8 @@
 # ~/.config/ghostty/config
-
-font-family = "CommitMonoCustom"
-
-font-size = 14
+font-size = 13
 font-thicken = true 
 
-theme = Catppuccin Mocha
+# theme = Catppuccin Mocha
 # theme = duskfox
 # theme = carbonfox
 # theme = tokyonight
@@ -14,6 +11,7 @@ theme = Catppuccin Mocha
 # theme = Tokyonight Night
 # theme = lackluster
 # theme = Gruvbox Dark
+theme = Kanagawa Wave
 
 # background-opacity = 0.8
 # background-blur-radius = 20
@@ -21,15 +19,15 @@ theme = Catppuccin Mocha
 
 # adjust-cell-height = 35%
 
-custom-shader = "./shaders/cursor_smear.glsl"
+# custom-shader = "./shaders/cursor_smear.glsl"
 
 mouse-hide-while-typing = true
 mouse-scroll-multiplier = 2
 
 window-decoration = client
 window-padding-balance = true
-window-padding-x = 10,10
-window-padding-y = 10,10
+window-padding-x = 10,5
+window-padding-y = 10,5
 window-save-state = always
 window-colorspace = "display-p3"
 
