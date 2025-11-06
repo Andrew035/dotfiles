@@ -1,17 +1,21 @@
 # ~/.config/ghostty/config
 font-size = 13
 font-thicken = true 
+font-family = CommitMono-Andrew
 
 # theme = Catppuccin Mocha
 # theme = duskfox
+# theme = solarized-osaka
 # theme = carbonfox
 # theme = tokyonight
-# theme = tokyonight-moon
+theme = tokyonight-moon
 # theme = Tokyonight Storm
 # theme = Tokyonight Night
 # theme = lackluster
 # theme = Gruvbox Dark
-theme = Kanagawa Wave
+# theme = Kanagawa Wave
+# theme = Rose Pine Moon
+# theme = sonokai-shusia
 
 # background-opacity = 0.8
 # background-blur-radius = 20
@@ -26,8 +30,8 @@ mouse-scroll-multiplier = 2
 
 window-decoration = client
 window-padding-balance = true
-window-padding-x = 10,5
-window-padding-y = 10,5
+window-padding-x = 10,10
+window-padding-y = 10,10
 window-save-state = always
 window-colorspace = "display-p3"
 
