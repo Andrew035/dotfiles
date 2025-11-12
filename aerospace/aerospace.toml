@@ -92,6 +92,10 @@ run = 'layout floating'
 [[on-window-detected]]
 if.app-name-regex-substring = 'preview'
 run = 'layout floating'
+
+[[on-window-detected]]
+if.app-name-regex-substring = 'music'
+run = 'layout floating'
 # 'main' binding mode declaration
 # See: https://nikitabobko.github.io/AeroSpace/guide#binding-modes
 # 'main' binding mode must be always presented
