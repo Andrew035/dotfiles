@@ -57,7 +57,7 @@ vec2 getRectangleCenter(vec4 rectangle) {
     return vec2(rectangle.x + (rectangle.z / 2.), rectangle.y - (rectangle.w / 2.));
 }
 float ease(float x) {
-    return pow(1.0 - x, 3.0);
+    return pow(1.0 - x, 6.0);
 }
 vec4 saturate(vec4 color, float factor) {
     float gray = dot(color, vec4(0.299, 0.587, 0.114, 0.)); // luminance
@@ -66,7 +66,7 @@ vec4 saturate(vec4 color, float factor) {
 
 vec4 TRAIL_COLOR = iCurrentCursorColor;
 const float OPACITY = 0.6;
-const float DURATION = 0.3; //IN SECONDS
+const float DURATION = 0.15; //IN SECONDS
 
 void mainImage(out vec4 fragColor, in vec2 fragCoord)
 {
@@ -102,7 +102,8 @@ void mainImage(out vec4 fragColor, in vec2 fragCoord)
     // Distance between cursors determine the total length of the parallelogram;
     vec2 centerCC = getRectangleCenter(currentCursor);
     vec2 centerCP = getRectangleCenter(previousCursor);
-    float lineLength = distance(centerCC, centerCP);
+    // float lineLength = distance(centerCC, centerCP);
+    float lineLength = min(distance(centerCC, centerCP), 0.05);
 
     vec4 newColor = vec4(fragColor);
 
