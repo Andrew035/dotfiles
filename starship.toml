@@ -7,15 +7,13 @@ format = """$directory$character"""
 right_format = "$git_branch$git_status"
 
 # Timeout for commands executed by starship (in milliseconds)
-command_timeout=2000
+command_timeout = 2000
 
 [character]
-# success_symbol = "[➜](green)"
-# error_symbol = "[➜](red)"
-# vicmd_symbol = "[➜](yellow)"
-success_symbol = "[❱](green)"
-error_symbol = "[❱](red)"
-vicmd_symbol = "[❰](cyan)"
+success_symbol = "[➜](bold green)"
+error_symbol = "[➜](bold red)"
+# success_symbol = "[❱](green)"
+# error_symbol = "[❱](red)"
 
 [directory]
 style = "bold green"
